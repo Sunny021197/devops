@@ -1,0 +1,10 @@
+---
+- name: play
+  hosts: all
+  tasks:
+   - name: my task
+     debug:
+      msg: "hello world"
+...
+
+
