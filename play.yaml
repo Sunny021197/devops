@@ -1,1 +1,14 @@
+<<<<<<< HEAD
 my new yaml
+=======
+---
+- name: play
+  hosts: all
+  tasks:
+   - name: my task
+     debug:
+      msg: "hello world"
+...
+
+
+>>>>>>> 4dba3abd6107f9b89e6b6a232e91ac28127c6875
